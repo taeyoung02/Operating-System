@@ -1,0 +1,4 @@
+stack 맨위에 메인함수의 return address 저장됨
+밑으로 내려가며 지역변수의 주소 저장함
+data영역엔 BSS와 DATA로 나뉘는데 초기화안된 전역변수는 BSS
+초기화된 전역변수는 DATA로 들어감
