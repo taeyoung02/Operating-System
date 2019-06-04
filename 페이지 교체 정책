@@ -1,0 +1,24 @@
+
+	* 운영체제가 물리메모리가 다 차있는데 특정 페이지를 올리기 위해 기존페이지를 물리메모리에서 내림.
+	* 
+페이지 교체 알고리즘
+
+
+	1. 
+FIFO
+	2. 
+OPT(OPTimal) 앞으로 가장 오랫동안 사용하지 않을 페이지 내리자(불가능)
+	3. 
+LRU(Least Recently Used)
+	4. 
+LFU(Least Frequently Used)
+	5. 
+NUR(Not Used Recently) 참조비트와 수정비트를 둠 (R,M)
+
+
+
+	* 
+스레싱(Thrashing)
+
+
+반복적으로 페이지폴트가 발생해서 페이지교체가 과도하게 일어나 실제로는 아무일도 하지못함
